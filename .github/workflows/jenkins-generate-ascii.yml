@@ -1,4 +1,4 @@
-name: jenkins-generate-ascii.yml.
+name: Generate ASCII Artwork
 on: workflow_dispatch
 jobs:
   build-artwork:
