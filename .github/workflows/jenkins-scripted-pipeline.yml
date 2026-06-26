@@ -1,4 +1,4 @@
-ame: Scripted Pipeline #test
+name: Scripted Pipeline #test
 on:
   workflow_dispatch:
   push:
