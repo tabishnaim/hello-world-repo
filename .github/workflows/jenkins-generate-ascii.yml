@@ -1,5 +1,9 @@
 name: Generate ASCII Artwork
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - 'feature-testing'
 jobs:
   build-artwork:
     runs-on: ubuntu-latest
